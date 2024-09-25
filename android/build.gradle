@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     if (project.android.hasProperty('namespace')) {
-        namespace 'custom.contact.service'
+        namespace 'flutter.plugins.contactsservice.contactsservice'
     }
     compileSdkVersion 34
 
